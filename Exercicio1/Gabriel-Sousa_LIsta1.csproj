@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F690911-36C8-4194-BC0D-6C131819B258}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Exercicio1</RootNamespace>
+    <AssemblyName>Exercicio1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exer10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer10.Designer.cs">
+      <DependentUpon>Exer10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer11.Designer.cs">
+      <DependentUpon>Exer11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer12.Designer.cs">
+      <DependentUpon>Exer12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer13.Designer.cs">
+      <DependentUpon>Exer13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer14.Designer.cs">
+      <DependentUpon>Exer14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer15.Designer.cs">
+      <DependentUpon>Exer15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer16.Designer.cs">
+      <DependentUpon>Exer16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer17.Designer.cs">
+      <DependentUpon>Exer17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer18.Designer.cs">
+      <DependentUpon>Exer18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer19.Designer.cs">
+      <DependentUpon>Exer19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer2.Designer.cs">
+      <DependentUpon>Exer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer20.Designer.cs">
+      <DependentUpon>Exer20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer21.Designer.cs">
+      <DependentUpon>Exer21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer3.Designer.cs">
+      <DependentUpon>Exer3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer4.Designer.cs">
+      <DependentUpon>Exer4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer6.Designer.cs">
+      <DependentUpon>Exer6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer7.Designer.cs">
+      <DependentUpon>Exer7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer8.Designer.cs">
+      <DependentUpon>Exer8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer9.Designer.cs">
+      <DependentUpon>Exer9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercício5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercício5.Designer.cs">
+      <DependentUpon>Exercício5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exer1.Designer.cs">
+      <DependentUpon>Exer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Exer10.resx">
+      <DependentUpon>Exer10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer11.resx">
+      <DependentUpon>Exer11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer12.resx">
+      <DependentUpon>Exer12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer13.resx">
+      <DependentUpon>Exer13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer14.resx">
+      <DependentUpon>Exer14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer15.resx">
+      <DependentUpon>Exer15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer16.resx">
+      <DependentUpon>Exer16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer17.resx">
+      <DependentUpon>Exer17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer18.resx">
+      <DependentUpon>Exer18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer19.resx">
+      <DependentUpon>Exer19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer2.resx">
+      <DependentUpon>Exer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer20.resx">
+      <DependentUpon>Exer20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer21.resx">
+      <DependentUpon>Exer21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer3.resx">
+      <DependentUpon>Exer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer4.resx">
+      <DependentUpon>Exer4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer6.resx">
+      <DependentUpon>Exer6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer7.resx">
+      <DependentUpon>Exer7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer8.resx">
+      <DependentUpon>Exer8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer9.resx">
+      <DependentUpon>Exer9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercício5.resx">
+      <DependentUpon>Exercício5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exer1.resx">
+      <DependentUpon>Exer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
